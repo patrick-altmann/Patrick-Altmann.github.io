@@ -12,22 +12,16 @@
 }
 
 .u-section-1 .u-text-2 {
-  margin: 30px 314px 0 0;
-}
-
-.u-section-1 .u-text-3 {
-  font-size: 0.875rem;
-  margin: 195px auto 13px;
-}
-
-.u-section-1 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
+  margin: 30px 314px 60px 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 692px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 4.5rem;
   }
 
   .u-section-1 .u-text-2 {
@@ -49,11 +43,19 @@
   .u-section-1 .u-sheet-1 {
     min-height: 398px;
   }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 251px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
   }
 } .u-section-2 {
   background-image: url("images/v617batch2-bb-01-technology1.jpg");
@@ -71,7 +73,7 @@
 .u-section-2 .u-list-1 {
   grid-template-rows: auto;
   margin-top: 74px;
-  margin-bottom: 0;
+  margin-bottom: 60px;
 }
 
 .u-section-2 .u-repeater-1 {
@@ -129,16 +131,6 @@
   text-shadow: -2px 2px 8px rgba(128,128,128,1);
   font-size: 2.25rem;
   margin: 30px 11px 0 0;
-}
-
-.u-section-2 .u-text-5 {
-  font-size: 0.875rem;
-  margin: 104px auto 11px;
-}
-
-.u-section-2 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
 }
 
 @media (max-width: 1199px) {
@@ -205,7 +197,7 @@
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  margin: 60px auto 0 0;
+  margin: 60px auto 60px 0;
 }
 
 .u-section-3 .u-layout-cell-1 {
@@ -262,17 +254,6 @@
   width: 307px;
   height: 460px;
   margin: 137px auto 0;
-}
-
-.u-section-3 .u-text-4 {
-  font-size: 0.875rem;
-  width: 146px;
-  margin: 81px auto 11px;
-}
-
-.u-section-3 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
 }
 
 @media (max-width: 1199px) {
@@ -399,7 +380,7 @@
 
 .u-section-4 .u-list-1 {
   width: 581px;
-  margin: -676px auto 0;
+  margin: -676px auto 60px;
 }
 
 .u-section-4 .u-repeater-1 {
@@ -444,16 +425,6 @@
   margin: 21px auto 0 30px;
 }
 
-.u-section-4 .u-text-6 {
-  font-size: 0.875rem;
-  margin: 654px auto 13px;
-}
-
-.u-section-4 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
-}
-
 @media (max-width: 1199px) {
   .u-section-4 .u-sheet-1 {
     min-height: 1897px;
@@ -465,11 +436,6 @@
 
   .u-section-4 .u-repeater-1 {
     min-height: 249px;
-  }
-
-  .u-section-4 .u-text-6 {
-    margin-top: 1329px;
-    margin-bottom: 0;
   }
 }
 
@@ -541,9 +507,5 @@
 
   .u-section-4 .u-repeater-1 {
     min-height: 492px;
-  }
-
-  .u-section-4 .u-text-6 {
-    margin-top: 1226px;
   }
 }
